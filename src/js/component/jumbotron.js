@@ -7,10 +7,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Jumbotron = (props) => {
   return (
     <div className="m-3">
-      <div className="p-5 mb-4 rounded-3 bg-secondary bg-opacity-25">
+      <div className="p-1 mb-4 rounded-3 bg-secondary bg-opacity-25">
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-bold">{props.title}</h1>
-          <p className="col-md-8 fs-4">{props.descripcion}</p>
+          <p className="col-md-12 fs-4">{props.descripcion}</p>
           <button className="btn btn-primary btn-lg" type="button">
             {props.button}
           </button>
